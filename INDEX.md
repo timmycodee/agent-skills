@@ -986,7 +986,7 @@ for s in agent-skills/skills/frida-*; do ln -sfn "$(pwd)/$s" ~/.agents/skills/$(
 | [`llm-prompt-injection`](skills/llm-prompt-injection/) | LLM prompt injection playbook. Use when testing AI/LLM applications for direct injection, indirect injection via RAG/browsing, tool abuse, d… |
 | [`monitoring-scada-modbus-traffic-anomalies`](skills/monitoring-scada-modbus-traffic-anomalies/) | 'Monitors Modbus TCP traffic on SCADA and ICS networks to detect anomalous function code usage, unauthorized register writes, and suspicious… |
 | [`moving-laterally-with-netexec`](skills/moving-laterally-with-netexec/) | Use NetExec (nxc) to validate credentials, enumerate SMB shares/users/policy, password-spray safely across lockout thresholds, execute comma… |
-| [`neurosploit`](skills/neurosploit/) | NeuroSploit agent-card library (485 playbooks: vulns/chains/meta/ai/recon/code/infra) |
+| [`neurosploit`](skills/neurosploit/) | NeuroSploit agent-card library (401 playbooks: vulns/chains/meta/ai/recon/code/infra) |
 | [`orchestrating-llm-attacks-with-pyrit`](skills/orchestrating-llm-attacks-with-pyrit/) | Build automated multi-turn adversarial attacks against conversational LLM targets using Microsoft PyRIT's RedTeamingOrchestrator, CrescendoO… |
 | [`path-traversal-lfi`](skills/path-traversal-lfi/) | Path traversal and LFI playbook. Use when file paths, download endpoints, include operations, archive extraction, or wrapper behavior may ex… |
 | [`performing-access-recertification-with-saviynt`](skills/performing-access-recertification-with-saviynt/) | Configure and execute access recertification campaigns in Saviynt Enterprise Identity Cloud to validate user entitlements, revoke excessive … |
